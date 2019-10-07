@@ -1,0 +1,24 @@
+{
+  "name": "graphiql-example-webpack",
+  "version": "0.0.4",
+  "private": true,
+  "license": "MIT",
+  "description": "A GraphiQL example with webpack and typescript",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphiql": "file:../../graphiql",
+    "graphql": "^14.5.8",
+    "react": "16.10.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0"
+  }
+}
